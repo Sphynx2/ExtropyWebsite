@@ -6,31 +6,35 @@
     <title>Robotica frateee</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/indexForm.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
     
     <script src="https://kit.fontawesome.com/c9a4cf46ef.js" crossorigin="anonymous"></script>
   </head>
   <body>
-
+    
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg p-3 navbar-dark bg-dark stroke">
+    <nav class="navbar navbar-expand-lg p-3 fill" style="background-color: #FDFDFE">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Extropy</a>
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" width="300" height="50" alt="">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
          
-          <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link mx-2 active disabled" aria-current="page" href="#">Acasa</a>
+                <a class="nav-link active disabled" aria-current="page" href="#" style="color: #ec008c;">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-2" href="#">Nume1</a>
+                <a class="nav-link" href="#" style="color: #000028;">Activity</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-2" href="#">Nume2</a>
+                <a class="nav-link" href="#" style="color: #000028">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #000028">Contact</a>
               </li>
             </ul>
           </div>
@@ -38,58 +42,56 @@
         </nav>
 
     <!-- Header -->
-    <div style="padding-top: 30px; background: url(https://bootstrapious.com/i/snippets/sn-static-header/background.jpg)" class="jumbotron bg-cover text-white">
-        <div class="container py-5 text-center">
-            <h1 class="display-4 font-weight-bold">Header Template - Robotica</h1>
-            <p class="font-italic mb-0">Inca 5 cafele si termin website-ul.</p>
-            <p class="font-italic">Nu apasa butonul de jos!</p>
-            <a href="#" role="button" class="btn btn-primary">Buton care nu stiu ce face</a>
+    <div class="container-fluid" style="height:100vh; background-size: cover; background-image: url(https://bootstrapious.com/i/snippets/sn-static-header/background.jpg);">
+        <div class="row justify-content-center align-items-center d-flex text-center h-100">
         </div>
     </div>
 
-    <!-- Contact us form -->
-    <div class="container-fluid contact-form">
-        <div class="contact-image">
-            <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+    <!--I don't know what this part is-->
+    <div class="container-fluid" style="background-color: #000028;">
+        <div class="row gx-0">
+            <div class="col-12" style="padding-top: 30px; padding-bottom: 30px;">
+                <h4 class="text-center lead" style="color: #FDFDFE">We live by values,</h4>
+                <h4 class="text-center lead" style="color: #FDFDFE">we thrive with their evolution!</h4>
+            </div>
         </div>
+    </div>
 
-        <form method="#post">
-           <h3>Contacteaza-ne Bachule!</h3>
-           <div class="row">
-                <div class="col-md-6" style="padding-top: 15px;">
-                    <input type="text" name="name" class="form-control" placeholder="Nume si prenume" value="" required/>
-                </div>
-                <div class="col-md-6" style="padding-top: 15px;">
-                    <input type="email" name="email" class="form-control" placeholder="Adresa de email" value="" required/>
-                </div>
-                <div class="col-12" style="padding-top: 15px;">
-                    <textarea name="text" class="form-control" placeholder="Mesajul tau" style="width: 100%; height: 150px;" required></textarea>
-                </div>
-                <div class="col-12 d-flex align-items-center">
-                    <button type="submit" class="btn btn-primary btn-block text-center">Trimite</button>
+    <!--Voll-E and some text-->
+    <div class="container-fluid" style="padding-top: 15px; padding-bottom: 15px;">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div style="padding-top: 30px; padding-bottom: 350px; background: url(https://bootstrapious.com/i/snippets/sn-static-header/background.jpg)" class="jumbotron bg-cover text-white">
                 </div>
             </div>
-        </form>
+            <div class="col-md-6 text-center">
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </h5>
+            </div>
+        </div>
     </div>
+
+
+    <!--Photography and text overlay-->
+    <div class="container-fluid" style="height:100vh; background-size: cover; background-image: url(https://bootstrapious.com/i/snippets/sn-static-header/background.jpg);">
+        <div class="row justify-content-center align-items-center d-flex text-center h-100">
+          <div class="col-12 h-50">
+              <p class="display-4 mt-5 bg-light lead" style="color: #000028; border: 20px solid #FDFDFE;">One team, many personalities</p>   
+          </div>
+        </div>
+    </div>
+    
 
 
     <!--Footer-->
-    <footer
-            class="text-center text-lg-start text-white"
-            style="background-color: #3f51b5"
-            >
+    <footer class="text-center text-lg-start text-white" style="background-color: #000028">
       <div class="container p-4 pb-0">
         <section class="">
-          <div class="row">
+          <div class="row text-center">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">
-                Despre Extropy
-              </h6>
+              <h6 class="text-uppercase mb-4 font-weight-bold">placeholder</h6>
               <p>
-                Suntem roboticieni super tari<br>
-                si ne pisam pe voi Xeo! N-o sa va<br>
-                ridicati niciodata la nivelul nostru<br>
-                sclavilor!
+                wtf
               </p>
             </div>
   
@@ -100,54 +102,18 @@
             <hr class="w-100 clearfix d-md-none" />
   
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Contacteaza-ne</h6>
-              <p><i class="fas fa-home mr-3"></i> Nu ne cautati acas' futu-va-n gat</p>
-              <p><i class="fas fa-envelope mr-3"></i> sphynx@gmail.com</p>
-              <p><i class="fas fa-phone mr-3"></i> +40746351717</p>
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact us</h6>
+              <p><i class="fas fa-home mr-3"></i> Pablo Dan Petruta</p>
+              <p><i class="fas fa-envelope mr-3"></i> yes</p>
             </div>
   
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Da-ne follow</h6>
-  
-              <a
-                 class="btn btn-primary btn-floating m-1"
-                 style="background-color: #3b5998"
-                 href="#!"
-                 role="button"
-                 ><i class="fab fa-facebook-f"></i
-                ></a>
-  
-              <a
-                 class="btn btn-primary btn-floating m-1"
-                 style="background-color: #55acee"
-                 href="#!"
-                 role="button"
-                 ><i class="fab fa-twitter"></i
-                ></a>
-  
-              <a
-                 class="btn btn-primary btn-floating m-1"
-                 style="background-color: #ac2bac"
-                 href="#!"
-                 role="button"
-                 ><i class="fab fa-instagram"></i
-                ></a>
+            <div class="col-12">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Our sponsors</h6>
             </div>
           </div>
         </section>
       </div>
-  
-      <div
-           class="text-center p-3"
-           style="background-color: rgba(0, 0, 0, 0.2)"
-           >
-        © 2022 Copyright:
-        <a class="text-white" href=""
-           >Extropy</a
-          >
-      </div>
     </footer>
-    
     
     
     <!-- Bootstrap scripts-->
