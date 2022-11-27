@@ -1,0 +1,24 @@
+.bg-cover 
+{
+    background-size: cover !important;
+}
+
+.btn 
+{
+    border-radius: 0 !important;
+    margin: 30px auto;
+    padding: 11px 32px;
+    background: #4285f4;
+    border: 1px solid #4285f4;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-primary.focus, .btn-primary:hover 
+{
+    background-color: #fff;
+    color: #4285f4;
+    border: 1px solid #4285f4 !important;
+}
